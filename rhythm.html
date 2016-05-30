@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<title>RhythmRuler</title>
+	<link rel="stylesheet" type="text/css" href="ruler.css">
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="./jquery.ruler.js"></script>	
+	<script src="./modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+<div id="container">
+	<script>
+		$(function() {
+  			$('#container').ruler ({
+        		vRuleSize: 0,
+        		hRuleSize: 18,
+        		showCrosshair : false,
+        		showMousePos: true
+    		});     
+		});
+	</script>
+</div>
+</body>
+</html>
